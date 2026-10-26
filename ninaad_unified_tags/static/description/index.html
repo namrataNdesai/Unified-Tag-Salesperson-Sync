@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tag &amp; Salesperson Sync</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <style>
+        body{
+          font-family: "Montserrat", sans-serif;
+        }
+    </style>
+</head>
+<body>
+<section>
+<div class="container" style="max-width:1200px;">
+
+    <!-- HEADER -->
+    <div class="row align-items-center mt-4 shadow-sm" style="background-color:#fff;border-bottom:3px solid #14a8c3;padding:18px 28px;border-radius:8px;margin-left:0;margin-right:0;">
+        <div class="col-md-3 col-sm-4 col-4" style="padding:6px 0;">
+            <img src="ninaad_logo.webp" alt="Ninaad Global" style="height:60px;max-width:100%;">
+        </div>
+        <div class="col-md-6 col-sm-4 col-4" style="text-align:center;padding:6px 0;">
+            <div style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:1.2rem;color:#1d476f;">TAG &amp; SALESPERSON SYNC</div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-4" style="text-align:right;padding:6px 0;">
+            <span style="display:inline-block;background-color:#1d476f;color:#fff;font-size:0.78rem;font-weight:600;padding:5px 14px;border-radius:4px;margin:2px;">
+                <img src="./assets/check.png" alt="" style="width:11px;height:11px;vertical-align:middle;margin-right:5px;margin-top:-2px;">Community
+            </span>
+            <span style="display:inline-block;background-color:#14a8c3;color:#fff;font-size:0.78rem;font-weight:600;padding:5px 14px;border-radius:4px;margin:2px;">
+                <img src="./assets/check.png" alt="" style="width:11px;height:11px;vertical-align:middle;margin-right:5px;margin-top:-2px;">Enterprise
+            </span>
+        </div>
+    </div>
+
+    <!-- NAVIGATE -->
+    <div class="row mt-4">
+        <div class="col-md-12 mb-2">
+            <h2 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:1.8rem;color:#1d476f;border-bottom:3px solid #14a8c3;padding-bottom:10px;margin-bottom:1.5rem;">
+                <img src="./assets/compass.png" alt="" style="width:26px;height:26px;vertical-align:middle;margin-right:8px;margin-top:-4px;"> Explore this Module
+            </h2>
+        </div>
+        <div class="col-md-4">
+            <a href="#overview" class="d-flex align-items-center justify-content-between" style="background-color:#e4f3f7;box-shadow:inset 4px 0 0 #14a8c3;border-radius:8px;padding:16px 20px;margin:10px 0;text-decoration:none;">
+                <div>
+                    <h3 style="font-family:'Montserrat',sans-serif;font-weight:700;color:#1d476f;font-size:1rem;margin:0 0 4px;">Overview</h3>
+                    <p style="color:#555;font-size:0.82rem;margin:0;">Learn more about this module</p>
+                </div>
+                <img src="./assets/chevron.png" alt="" style="width:16px;height:16px;">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="#features" class="d-flex align-items-center justify-content-between" style="background-color:#e4f3f7;box-shadow:inset 4px 0 0 #14a8c3;border-radius:8px;padding:16px 20px;margin:10px 0;text-decoration:none;">
+                <div>
+                    <h3 style="font-family:'Montserrat',sans-serif;font-weight:700;color:#1d476f;font-size:1rem;margin:0 0 4px;">Features</h3>
+                    <p style="color:#555;font-size:0.82rem;margin:0;">View the features of this module</p>
+                </div>
+                <img src="./assets/chevron.png" alt="" style="width:16px;height:16px;">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="#configuration" class="d-flex align-items-center justify-content-between" style="background-color:#e4f3f7;box-shadow:inset 4px 0 0 #14a8c3;border-radius:8px;padding:16px 20px;margin:10px 0;text-decoration:none;">
+                <div>
+                    <h3 style="font-family:'Montserrat',sans-serif;font-weight:700;color:#1d476f;font-size:1rem;margin:0 0 4px;">Configuration</h3>
+                    <p style="color:#555;font-size:0.82rem;margin:0;">See the key configuration steps</p>
+                </div>
+                <img src="./assets/chevron.png" alt="" style="width:16px;height:16px;">
+            </a>
+        </div>
+    </div>
+
+    <!-- OVERVIEW -->
+    <div id="overview" class="mt-5">
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:1.8rem;color:#1d476f;border-bottom:3px solid #14a8c3;padding-bottom:10px;margin-bottom:1.5rem;">
+            <img src="./assets/piechart.png" alt="" style="width:26px;height:26px;vertical-align:middle;margin-right:8px;margin-top:-4px;"> Overview
+        </h2>
+        <h3 style="color:#1d476f; font-family:'Montserrat',sans-serif; font-weight:700;">
+            Tag &amp; Salesperson Sync
+        </h3>
+
+        <p style="font-size:1.05rem;color:#222;line-height:1.8;">
+            In standard Odoo, Contacts, CRM and Sales each use their own tags and their own Salesperson. The <strong>Tag &amp; Salesperson Sync</strong> module keeps them in step, so you do not enter the same information again on every record.
+        </p>
+        <p style="font-size:1.05rem;color:#222;line-height:1.8;">
+            It adds two options on the Company. <strong>Unify Lead &amp; Contact Tags</strong> keeps CRM tags and Contact tags identical and copies a contact's tags to the lead. <strong>Use Contact Salesperson on Leads</strong> sets the lead's Salesperson from the selected contact.
+        </p>
+        <p style="font-size:1.05rem;color:#222;line-height:1.8;">
+            When a quotation is created from the opportunity with the Sales app, it receives the same tags and Salesperson.
+        </p>
+    </div>
+
+    <!-- FEATURES -->
+    <div id="features" class="mt-5">
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:1.8rem;color:#1d476f;border-bottom:3px solid #14a8c3;padding-bottom:10px;margin-bottom:1.5rem;">
+            <img src="./assets/star.png" alt="" style="width:26px;height:26px;vertical-align:middle;margin-right:8px;margin-top:-4px;"> Features
+        </h2>
+
+        <ul>
+            <li style="font-size:1rem;color:#333;margin-bottom:6px;"><strong>Unified tags:</strong> CRM tags and Contact tags share the same names. Create or rename a tag in one place and the other follows.</li>
+            <li style="font-size:1rem;color:#333;margin-bottom:6px;">Duplicate tag names are not allowed across CRM and Contacts.</li>
+            <li style="font-size:1rem;color:#333;margin-bottom:6px;">Selecting a contact on a lead or opportunity adds the contact's tags to the lead automatically.</li>
+            <li style="font-size:1rem;color:#333;margin-bottom:6px;"><strong>Contact salesperson:</strong> selecting a contact on a lead or opportunity sets the lead's Salesperson to the contact's Salesperson.</li>
+            <li style="font-size:1rem;color:#333;margin-bottom:6px;">With the Sales app installed, <strong>New Quotation</strong> on the opportunity carries the same tags and Salesperson to the quotation.</li>
+            <li style="font-size:1rem;color:#333;margin-bottom:6px;">Both behaviours are controlled by two options on the Company, and each one can be turned on separately.</li>
+            <li style="font-size:1rem;color:#333;margin-bottom:6px;">When both options are off, Odoo behaves exactly as before.</li>
+        </ul>
+    </div>
+
+    <!-- CONFIGURATION -->
+    <div id="configuration" class="mt-5">
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:1.8rem;color:#1d476f;border-bottom:3px solid #14a8c3;padding-bottom:10px;margin-bottom:1.5rem;">
+            <img src="./assets/cog.png" alt="" style="width:26px;height:26px;vertical-align:middle;margin-right:8px;margin-top:-4px;"> Configuration
+        </h2>
+
+        <div class="shadow-sm" style="background-color:#fff;border:1px solid #b8dce8;border-radius:10px;padding:24px;margin-bottom:28px;">
+            <div style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:1rem;color:#1d476f;background-color:#eef6f9;box-shadow:inset 4px 0 0 #14a8c3;padding:8px 16px;border-radius:0 6px 6px 0;margin-bottom:14px;display:inline-block;">STEP 1 &mdash; ENABLE THE COMPANY OPTIONS</div>
+            <p style="color:#444;font-size:0.97rem;margin-bottom:6px;">Go to <strong style="color:#1d476f;">Settings &rarr; Companies</strong> and open your company. Two options are added:</p>
+            <ul>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;"><strong style="color:#1d476f;">Unify Lead &amp; Contact Tags</strong> &mdash; shares tags between CRM and Contacts.</li>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;"><strong style="color:#1d476f;">Use Contact Salesperson on Leads</strong> &mdash; sets the lead's Salesperson from the contact.</li>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;">Each option can be enabled separately, per company. Leave both off to keep the standard Odoo behaviour.</li>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;">The first time <strong style="color:#1d476f;">Unify Lead &amp; Contact Tags</strong> is enabled, the tags that exist only in CRM or only in Contacts are created on the other side, so both lists match.</li>
+            </ul>
+            <div>
+                <img src="company_config.png" alt="Company options" style="width:100%;border:1px solid #b8dce8;border-radius:8px;box-shadow:0 3px 12px rgba(29,71,111,0.10);margin-top:14px;" />
+            </div>
+        </div>
+
+        <div class="shadow-sm" style="background-color:#fff;border:1px solid #b8dce8;border-radius:10px;padding:24px;margin-bottom:28px;">
+            <div style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:1rem;color:#1d476f;background-color:#eef6f9;box-shadow:inset 4px 0 0 #14a8c3;padding:8px 16px;border-radius:0 6px 6px 0;margin-bottom:14px;display:inline-block;">STEP 2 &mdash; UNIFIED TAGS</div>
+            <p style="color:#444;font-size:0.97rem;margin-bottom:6px;">With <strong style="color:#1d476f;">Unify Lead &amp; Contact Tags</strong> enabled, create a tag in <strong style="color:#1d476f;">CRM</strong> or in <strong style="color:#1d476f;">Contacts</strong>.</p>
+            <ul>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;">The same tag is created on the other side with the same name and colour.</li>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;">Renaming a tag renames the matching tag too.</li>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;">A tag name that already exists in CRM or in Contacts cannot be created again. A message explains why.</li>
+            </ul>
+            <div>
+                <img src="contact_tag.png" alt="Contact tags" style="width:100%;border:1px solid #b8dce8;border-radius:8px;box-shadow:0 3px 12px rgba(29,71,111,0.10);margin-top:14px;" />
+            </div>
+        </div>
+
+        <div class="shadow-sm" style="background-color:#fff;border:1px solid #b8dce8;border-radius:10px;padding:24px;margin-bottom:28px;">
+            <div style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:1rem;color:#1d476f;background-color:#eef6f9;box-shadow:inset 4px 0 0 #14a8c3;padding:8px 16px;border-radius:0 6px 6px 0;margin-bottom:14px;display:inline-block;">STEP 3 &mdash; CONTACT TAGS ON CRM</div>
+            <p style="color:#444;font-size:0.97rem;margin-bottom:6px;">Open a <strong style="color:#1d476f;">CRM Lead / Opportunity</strong> and select a <strong style="color:#1d476f;">Contact</strong> that has tags.</p>
+            <ul>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;">The contact's tags are added to the lead's <strong style="color:#1d476f;">Tags</strong> field automatically.</li>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;">Tags already on the lead are kept.</li>
+            </ul>
+            <div>
+                <img src="crm_tag.png" alt="Contact tags on the CRM lead" style="width:100%;border:1px solid #b8dce8;border-radius:8px;box-shadow:0 3px 12px rgba(29,71,111,0.10);margin-top:14px;" />
+            </div>
+        </div>
+
+        <div class="shadow-sm" style="background-color:#fff;border:1px solid #b8dce8;border-radius:10px;padding:24px;margin-bottom:28px;">
+            <div style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:1rem;color:#1d476f;background-color:#eef6f9;box-shadow:inset 4px 0 0 #14a8c3;padding:8px 16px;border-radius:0 6px 6px 0;margin-bottom:14px;display:inline-block;">STEP 4 &mdash; CONTACT SALESPERSON ON CRM</div>
+            <p style="color:#444;font-size:0.97rem;margin-bottom:6px;">With <strong style="color:#1d476f;">Use Contact Salesperson on Leads</strong> enabled, select a <strong style="color:#1d476f;">Contact</strong> on a lead or opportunity.</p>
+            <ul>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;">The lead's <strong style="color:#1d476f;">Salesperson</strong> is set to the Salesperson defined on the contact.</li>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;">If the contact has no Salesperson, the lead's Salesperson is not changed.</li>
+            </ul>
+            <div>
+                <img src="crm_salesperson.png" alt="Contact salesperson on the CRM lead" style="width:100%;border:1px solid #b8dce8;border-radius:8px;box-shadow:0 3px 12px rgba(29,71,111,0.10);margin-top:14px;" />
+            </div>
+        </div>
+
+        <div class="shadow-sm" style="background-color:#fff;border:1px solid #b8dce8;border-radius:10px;padding:24px;margin-bottom:28px;">
+            <div style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:1rem;color:#1d476f;background-color:#eef6f9;box-shadow:inset 4px 0 0 #14a8c3;padding:8px 16px;border-radius:0 6px 6px 0;margin-bottom:14px;display:inline-block;">STEP 5 &mdash; NEW QUOTATION</div>
+            <p style="color:#444;font-size:0.97rem;margin-bottom:6px;">On the opportunity, click <strong style="color:#1d476f;">New Quotation</strong> (Sales app installed).</p>
+            <ul>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;">The quotation opens with the same <strong style="color:#1d476f;">Tags</strong> as the opportunity.</li>
+                <li style="color:#444;font-size:0.97rem;margin-bottom:5px;">The quotation's <strong style="color:#1d476f;">Salesperson</strong> is the same as on the opportunity.</li>
+            </ul>
+            <div>
+                <img src="quotation.png" alt="Quotation with the same tags and salesperson" style="width:100%;border:1px solid #b8dce8;border-radius:8px;box-shadow:0 3px 12px rgba(29,71,111,0.10);margin-top:14px;" />
+            </div>
+        </div>
+
+    </div>
+
+    <div id="developed-by-ninaad" class="mt-5">
+        <h2 style="font-family:'Montserrat',sans-serif;font-weight:700;font-size:1.8rem;color:#1d476f;border-bottom:3px solid #14a8c3;padding-bottom:10px;margin-bottom:1.5rem;">
+            <img src="./assets/industry.png" alt="" style="width:26px;height:26px;vertical-align:middle;margin-right:8px;margin-top:-4px;"> Developed by Ninaad Global
+        </h2>
+
+        <p style="font-size:1.05rem;color:#222;line-height:1.8;">
+            <strong>Ninaad Global Pvt Ltd.</strong> provides Odoo implementation, customization,
+            integration, and ERP consulting services.
+        </p>
+
+        <p style="font-size:1.05rem;color:#222;line-height:1.8;">
+            Our focus is on developing practical Odoo solutions that address real-world business
+            and data-management challenges.
+        </p>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="mt-5" style="border-top:2px solid #b8dce8;padding:24px 0;text-align:center;">
+        <div class="row align-items-center text-center">
+
+            <div class="col-md-3 mb-3 mb-md-0">
+                <span style="background-color:#14a8c3;color:#fff;width:34px;height:34px;border-radius:50%;display:inline-block;text-align:center;line-height:34px;margin-right:10px;vertical-align:middle;">
+                    <img src="./assets/globe.png" alt="" style="width:16px;height:16px;vertical-align:middle;">
+                </span>
+                <span style="color:#1d476f;font-size:1rem;font-weight:500;text-decoration:none;">www.ninaadglobal.com</span>
+            </div>
+
+            <div class="col-md-3 mb-3 mb-md-0">
+                <span style="background-color:#14a8c3;color:#fff;width:34px;height:34px;border-radius:50%;display:inline-block;text-align:center;line-height:34px;margin-right:10px;vertical-align:middle;">
+                    <img src="./assets/phone.png" alt="" style="width:16px;height:16px;vertical-align:middle;">
+                </span>
+                <span style="color:#1d476f;font-size:1rem;font-weight:500;text-decoration:none;">+91 9653163696</span>
+            </div>
+
+            <div class="col-md-3 mb-3 mb-md-0">
+                <span style="background-color:#14a8c3;color:#fff;width:34px;height:34px;border-radius:50%;display:inline-block;text-align:center;line-height:34px;margin-right:10px;vertical-align:middle;">
+                    <img src="./assets/phone.png" alt="" style="width:16px;height:16px;vertical-align:middle;">
+                </span>
+                <span style="color:#1d476f;font-size:1rem;font-weight:500;text-decoration:none;">+65 91122588</span>
+            </div>
+
+            <div class="col-md-3 mb-3 mb-md-0">
+                <span style="background-color:#14a8c3;color:#fff;width:34px;height:34px;border-radius:50%;display:inline-block;text-align:center;line-height:34px;margin-right:10px;vertical-align:middle;">
+                    <img src="./assets/envelope.png" alt="" style="width:16px;height:16px;vertical-align:middle;">
+                </span>
+                <a href="mailto:sales@ninaadglobal.com" style="color:#1d476f;font-size:1rem;font-weight:500;text-decoration:none;">sales@ninaadglobal.com</a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</section>
+</body>
+</html>
